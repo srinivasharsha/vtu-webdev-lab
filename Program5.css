@@ -1,0 +1,33 @@
+students {
+	background-color: lightblue;
+	border: 1px solid black;
+	margin: 50px;
+}
+student {
+	display:block;
+	margin: 10px;
+	float: both;
+	text-align: center;
+}
+usn {
+	display: inline;
+	font-style:bold;
+}
+name {
+	display: inline;
+	color: red;
+	font-size: 25px;
+}
+college {
+	display: inline;
+	font-size: 22px;
+}
+branch {
+	display: inline;
+	font-style: italic;
+	font-size: 22px;
+}
+city {
+	display: inline;
+	font-size: 22px;
+}
