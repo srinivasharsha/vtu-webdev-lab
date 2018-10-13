@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<body>
+    <style>
+        input {
+            background-color: cadetblue;
+            font-size: 12px;
+            text-align: center;
+            width: 100%;
+            border: 0;
+        }
+    </style>
+    <div align="center">
+        <form name=cal>
+            <table>
+                <tr>
+                    <td colspan="4"> <input type="text" name="get"> </td>
+                </tr>
+                <tr>
+                    <td> <input type="button" value="1" onclick="cal.get.value += '1'"></td>
+                    <td> <input type="button" value="2" onclick="cal.get.value += '2'"></td>
+                    <td> <input type="button" value="3" onclick="cal.get.value += '3'"></td>
+                    <td> <input type="button" value="+" onclick="cal.get.value += '+'"></td>
+                </tr>
+                <tr>
+                    <td> <input type="button" value="4" onclick="cal.get.value += '4'"></td>
+                    <td> <input type="button" value="5" onclick="cal.get.value += '5'"></td>
+                    <td> <input type="button" value="6" onclick="cal.get.value += '6'"></td>
+                    <td> <input type="button" value="-" onclick="cal.get.value += '-'"></td>
+                </tr>
+                <tr>
+                    <td> <input type="button" value="7" onclick="cal.get.value += '7'"></td>
+                    <td> <input type="button" value="8" onclick="cal.get.value += '8'"></td>
+                    <td> <input type="button" value="9" onclick="cal.get.value += '9'"></td>
+                    <td> <input type="button" value="*" onclick="cal.get.value += '*'"></td>
+                </tr>
+                <tr>
+                    <td> <input type="reset" value="c"></td>
+                    <td> <input type="button" value="0" onclick="cal.get.value += '0'"></td>
+                    <td> <input type="button" value="=" onclick="cal.get.value = eval(cal.get.value)"></td>
+                    <td> <input type="button" value="/" onclick="cal.get.value += '/'"></td>
+                </tr>
+
+            </table>
+        </form>
+    </div>
+
+</body>
+
+</html>
